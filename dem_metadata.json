@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Ocean City DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Ocean City boundary, adaptively resampled to 11.3 ft pixels to keep the browser-delivered raster within operational size limits, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 3.445734425705711,
+  "pixelSizeFeet": 11.304902971430211,
+  "adaptiveResolution": true,
+  "width": 3715,
+  "height": 4308,
+  "nodata": -999999,
+  "minMeters": -1.412,
+  "maxMeters": 7.996,
+  "meanMeters": 0.798,
+  "stdDevMeters": 1.038,
+  "minFeet": -4.63254593174,
+  "maxFeet": 26.23359580042,
+  "webMercatorBounds": [
+    -8310585.639559,
+    4751345.01754606,
+    -8297784.7361675035,
+    4766189.241452
+  ],
+  "leafletBounds": [
+    [
+      39.206858,
+      -74.655261
+    ],
+    [
+      39.3101046,
+      -74.5402938
+    ]
+  ],
+  "files": {
+    "demCog": "ocean_city_dem_5ft_cog.tif",
+    "hillshadeCog": "ocean_city_hillshade_cog.tif",
+    "hillshadePng": "ocean_city_hillshade.png",
+    "boundaryGeojson": "ocean_city_boundary.geojson"
+  }
+}
